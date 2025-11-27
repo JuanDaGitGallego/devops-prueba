@@ -1,0 +1,21 @@
+{
+  "name": "devops-prueba",
+  "version": "1.0.0",
+  "description": "Repositorio para prueba técnica de DevOps: Docker, GitHub Actions y despliegue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanDaGitGallego/devops-prueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuanDaGitGallego/devops-prueba/issues"
+  },
+  "homepage": "https://github.com/JuanDaGitGallego/devops-prueba#readme"
+}
