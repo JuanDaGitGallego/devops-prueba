@@ -11,20 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout del código
+      - name:  Checkout del código
         uses: actions/checkout@v3
 
-      - name: 🟢 Instalar Node.js
+      - name:  Instalar Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: 📦 Instalar dependencias
+      - name:  Instalar dependencias
         run: npm install
 
-      - name: 🧪 Ejecutar pruebas
+      - name:  Ejecutar pruebas
         run: npm test
 
-      - name: 🐳 Build de imagen Docker
+      - name:  Build de imagen Docker
         run: docker build -t devops-prueba .
-        
